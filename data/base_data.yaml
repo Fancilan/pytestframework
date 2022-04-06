@@ -1,0 +1,50 @@
+-
+  test:
+    url: /usercenter/v1.0/user/login
+    headers:
+      Content-Type: application/json
+    body:
+      userName: '15927107781'
+      pwd: afdd0b4ad2ec172c586e2150770fbf9e
+      isRemember: 1
+      systemCode: adviser
+-
+  test:
+    url:  /usercenter/v1.0/user/login
+    headers:
+      Content-Type: application/json
+    body:
+      userName: '15927107780'
+      pwd: afdd0b4ad2ec172c586e2150770fbf9e
+      isRemember: 1
+      systemCode: adviser
+-
+  test:
+    url:  /usercenter/v1.0/user/login
+    headers:
+      Content-Type: application/json
+    body:
+      userName: '15927107780'
+      pwd: afdd0b4ad2ec172c586e2150770fbf9a
+      isRemember: 1
+      systemCode: adviser
+-
+  test:
+    url:  /usercenter/v1.0/user/login
+    headers:
+      Content-Type: application/json
+    body:
+      userName: '15927107781'
+      pwd: afdd0b4ad2ec172c586e2150770fbf9e
+      isRemember: 0
+      systemCode: adviser
+-
+  test:
+    url:  /usercenter/v1.0/user/login
+    headers:
+      Content-Type: application/json
+    body:
+      userName: '15927107781'
+      pwd: 12345678
+      isRemember: 0
+      systemCode: adviser
