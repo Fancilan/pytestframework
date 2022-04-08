@@ -1,6 +1,6 @@
 import pytest
 import allure
-from core.rest_client import RestClient
+from manner.rest_client import RestClient
 from common.get_data import get_data,get_config
 from common.logger import logger
 
