@@ -1,3 +1,7 @@
+import os,sys
+dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append("/usr/local/python3.7/lib/python3.7/site-packages")
+
 import pytest
 import allure
 from manner.rest_client import RestClient
