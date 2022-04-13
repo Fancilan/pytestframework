@@ -32,7 +32,7 @@ pytest
 
 - api ====>> 接口封装层，如封装HTTP接口为Python接口
 - common ====>> 各种工具类
-- core ====>> requests请求方法封装、关键字返回结果类
+- manner ====>> requests请求方法封装、关键字返回结果类
 - config ====>> 配置文件
 - data ====>> 测试数据文件管理
 - operation ====>> 关键字封装层，如把多个Python接口封装为关键字
