@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/var/lib/jenkins/workspace/auto-test（git）")
+sys.path.append("/var/lib/jenkins/workspace/auto-test")
 
 import pytest
 import allure
