@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/var/lib/jenkins/workspace/auto-test")
+sys.path.append("/var/lib/jenkins/workspace/auto-test（git）")
 
 import pytest
 import allure
@@ -16,9 +16,6 @@ class Test_example:
 
    url_data = get_config("setting.ini")
 
-   api = RestClient()
-
-   global api
 
    def setup(self):
       logger.info("<------------------------- 开始执行用例 ------------------------->")
@@ -30,7 +27,7 @@ class Test_example:
    @allure.description("用例-是针对编辑端用户登录的接口测试")
    @pytest.mark.parametrize('api_data',api_data)
    def test_login(self, api_data, url=url_data):
-
+      api = RestClient()
       url = url['TEST_ENV'] + api_data['test']['url']
       header = api_data['test']['headers']
       raw = api_data['test']['body']
