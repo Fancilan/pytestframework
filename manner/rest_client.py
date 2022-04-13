@@ -1,7 +1,8 @@
 import requests
 import json as complexjson
 from common.logger import logger
-
+import urllib3
+urllib3.disable_warnings()
 
 class RestClient():
 
