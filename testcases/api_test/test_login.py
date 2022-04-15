@@ -9,7 +9,7 @@ from common.logger import logger
 
 
 
-
+@allure.feature("登录模块")
 class Test_example:
 
    api_data = get_data("login_data.yaml")
@@ -23,7 +23,8 @@ class Test_example:
    def teardown(self):
       logger.info("<------------------------- 结束执行用例 ------------------------->")
 
-   @allure.title("登录测试")
+   @allure.story("登录")
+   @allure.title("编辑端登录测试")
    @allure.description("用例-是针对编辑端用户登录的接口测试")
    @pytest.mark.parametrize('api_data',api_data)
    def test_login(self, api_data, url=url_data):
