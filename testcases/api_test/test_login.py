@@ -12,7 +12,7 @@ from common.logger import logger
 
 class Test_example:
 
-   api_data = get_data("base_data.yaml")
+   api_data = get_data("login_data.yaml")
 
    url_data = get_config("setting.ini")
 

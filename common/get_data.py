@@ -27,6 +27,6 @@ def get_config(config_name):
 
 if __name__ == '__main__':
 
-    get_data("base_data.yaml")
+    get_data("login_data.yaml")
 
     get_config("setting.ini")
