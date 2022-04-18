@@ -23,7 +23,7 @@ class Test_example:
    def teardown(self):
       logger.info("<------------------------- 结束执行用例 ------------------------->")
 
-   @allure.story("登录")
+   @allure.story("登录1")
    @allure.title("编辑端登录测试")
    @allure.description("用例-是针对编辑端用户登录的接口测试")
    @pytest.mark.parametrize('api_data',api_data)
