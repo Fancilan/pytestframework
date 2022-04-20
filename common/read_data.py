@@ -21,7 +21,8 @@ class ReadFileData():
         logger.info("加载 {} 文件......".format(file_path))
         with open(file_path, encoding='utf-8') as f:
             data = yaml.safe_load(f)
-        logger.info("读取yaml数据 ==>>  {} ".format(data))
+            data_pretty = json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+        logger.info("读取yaml数据 ==>>  {} ".format(data_pretty))
         return data
 
     def load_json(self, file_path):

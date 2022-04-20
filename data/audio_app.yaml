@@ -1,0 +1,26 @@
+-
+  prod:
+    url: /audioapp/v1.0/audioListen/getAudioApp4Wechat  #(微信客户端)获取音频应用基本信息
+    headers:
+      Content-Type: application/json
+      Cookie: userInfo=officialAccountsId%3D66054%26wechatUserId%3D124340087%26userCode%3De0837c495462b8144de8756bf0c0b9c7%26payCode%3DPCLOUD_WECHAT_openid_9cd7ef82a4754dad8d2d34d1be21541d%26hasSnapsis%3D1%26channelId%3D1362%26userType%3DREGULAR%26adviserId%3D1362%26spreadType%3D0
+    params:
+      appId: 2079340
+-
+  prod:
+    url: /audioapp/v1.0/audioListen/getAudioMusicList4Wechat  #(微信客户端)获取音频应用下资源列表
+    headers:
+      Content-Type: application/json
+      Cookie: userInfo=officialAccountsId%3D66054%26wechatUserId%3D124340087%26userCode%3De0837c495462b8144de8756bf0c0b9c7%26payCode%3DPCLOUD_WECHAT_openid_9cd7ef82a4754dad8d2d34d1be21541d%26hasSnapsis%3D1%26channelId%3D1362%26userType%3DREGULAR%26adviserId%3D1362%26spreadType%3D0
+    params:
+      appId: 2079340
+      currentPage: 0
+      numPerPage: 1000
+-
+  prod:
+    url: /audioapp/v1.0/audioListen/getCourseNumAndPrice4Wechat  #(微信客户端)获取课程数和价格
+    headers:
+      Content-Type: application/json
+      Cookie: userInfo=officialAccountsId%3D66054%26wechatUserId%3D124340087%26userCode%3De0837c495462b8144de8756bf0c0b9c7%26payCode%3DPCLOUD_WECHAT_openid_9cd7ef82a4754dad8d2d34d1be21541d%26hasSnapsis%3D1%26channelId%3D1362%26userType%3DREGULAR%26adviserId%3D1362%26spreadType%3D0
+    params:
+      appId: 2079340
