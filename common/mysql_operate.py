@@ -54,5 +54,8 @@ class MysqlDb():
             # 回滚所有更改
             self.conn.rollback()
 
+# if __name__ == "__main__":
+#     db = MysqlDb(DB_CONF)
+#     sql = "INSERT INTO log VALUES () ("
+#     db.execute_db()
 
-db = MysqlDb(DB_CONF)
